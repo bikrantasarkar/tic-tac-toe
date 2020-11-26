@@ -12,6 +12,20 @@ var Seven=document.querySelector("#seven");
 var Eight=document.querySelector("#eight");
 var Nine=document.querySelector("#nine");
 
+var res=document.querySelector("#restart");
+res.addEventListener('click',function(){
+	val= [9,9,9,9,9,9,9,9,9];
+	One.textContent=" ";
+	Two.textContent=" ";
+	Three.textContent=" ";
+	Four.textContent=" ";
+	Five.textContent=" ";
+	Six.textContent=" ";
+	Seven.textContent=" ";
+	Eight.textContent=" ";
+	Nine.textContent=" ";
+})
+
 
 One.addEventListener('click',function(){
 	if(val[0]==0)
