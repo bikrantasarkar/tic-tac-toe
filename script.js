@@ -1,5 +1,13 @@
 console.log("Welcome to TICTACTOE!");
 
+$('#simpb').on('click',function(){
+	$('#simpb').slideUp(3000);
+	$('#simp').slideUp(3000);
+})
+
+
+
+
 var val= [9,9,9,9,9,9,9,9,9];
 
 var One=document.querySelector("#one");
